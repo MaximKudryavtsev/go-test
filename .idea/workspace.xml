@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="899ed95d-6df1-4356-970d-d4f00c81f287" name="Default Changelist" comment="" />
+    <list default="true" id="899ed95d-6df1-4356-970d-d4f00c81f287" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/apiserver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/app/model/testing.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/app/model/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/app/model/user_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/app/model/validations.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/app/store/UserRepository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/app/store/UserRepository_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/app/store/store_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/app/store/testing.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20200817150311_create_users.down.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20200817150311_create_users.up.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/apiserver.toml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/apiserver.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/store/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/store/store.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,17 +56,28 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="C:\Go" />
+  <component name="GOROOT" path="$USER_HOME$/sdk/go1.15" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoDepProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1g2Xm93BMafMIZhMAZCelvkv0Aq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -35,9 +88,14 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="copyright.filetypes.Go" />
   </component>
-  <component name="RunManager" selected="Makefile.build">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/internal/app/store" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestUser_Validate in github.com/MaximKudryavtsev/go-test/internal/app/model">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
@@ -46,25 +104,6 @@
       <filePath value="$PROJECT_DIR$" />
       <package value="github.com/MaximKudryavtsev/go-test" />
       <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestAPIServer_HandleHello in github.com/MaximKudryavtsev/go-test/internal/app/apiserver" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$/internal/app/apiserver" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/MaximKudryavtsev/go-test/internal/app/apiserver" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestAPIServer_HandleHello$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -78,6 +117,81 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="github.com/MaximKudryavtsev/go-test" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUserRepository_Create in github.com/MaximKudryavtsev/go-test/internal/app/store" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/internal/app/store" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/MaximKudryavtsev/go-test/internal/app/store" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestUserRepository_Create$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUserRepository_FindByEmail in github.com/MaximKudryavtsev/go-test/internal/app/store" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/internal/app/store" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/MaximKudryavtsev/go-test/internal/app/store" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestUserRepository_FindByEmail$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUser_BeforeCreate in github.com/MaximKudryavtsev/go-test/internal/app/model" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/internal/app/model" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/MaximKudryavtsev/go-test/internal/app/model" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestUser_BeforeCreate$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUser_Validate in github.com/MaximKudryavtsev/go-test/internal/app/model" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/internal/app/model" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/MaximKudryavtsev/go-test/internal/app/model" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestUser_Validate$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="github.com/MaximKudryavtsev/go-test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test github.com/MaximKudryavtsev/go-test/internal/app/store" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/internal/app/store" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/MaximKudryavtsev/go-test/internal/app/store" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="build" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="build" workingDirectory="" arguments="">
         <envs />
@@ -86,14 +200,32 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Makefile.build" />
-        <item itemvalue="Go Test.TestAPIServer_HandleHello in github.com/MaximKudryavtsev/go-test/internal/app/apiserver" />
+        <item itemvalue="Go Test.TestUser_Validate in github.com/MaximKudryavtsev/go-test/internal/app/model" />
+        <item itemvalue="Go Test.go test github.com/MaximKudryavtsev/go-test/internal/app/store" />
+        <item itemvalue="Go Test.TestUser_BeforeCreate in github.com/MaximKudryavtsev/go-test/internal/app/model" />
+        <item itemvalue="Go Test.TestUserRepository_FindByEmail in github.com/MaximKudryavtsev/go-test/internal/app/store" />
+        <item itemvalue="Go Test.TestUserRepository_Create in github.com/MaximKudryavtsev/go-test/internal/app/store" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -107,45 +239,109 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="353" key="#Go_Modules/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597316341805" />
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597321302771">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="339" y="408" width="1231" height="297" key="#SQL_Dialects" timestamp="1597667241404">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="339" y="408" width="1231" height="297" key="#SQL_Dialects/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1597667241404" />
+    <state x="552" y="210" width="800" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597674790271">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597321302771" />
+    <state x="552" y="210" width="800" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1597674790271" />
+    <state x="2472" y="185" width="800" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.30.1920.1050@1920.0.1920.1080" timestamp="1597646569466" />
     <state x="685" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597316892557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="685" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597316892557" />
+    <state x="2492" y="115" width="766" height="882" key="CommitChangelistDialog2" timestamp="1597419803783">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2492" y="115" width="766" height="882" key="CommitChangelistDialog2/1920.0.1920.1080/0.30.1920.1050@1920.0.1920.1080" timestamp="1597419803783" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1597313844836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597313844836" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1597320903730">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1597749669722">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597320903730" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1597320903730">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1597326268191" />
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1597749669722" />
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.30.1920.1050@1920.0.1920.1080" timestamp="1597580108815" />
+    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1597749669722">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597320903730" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1597320903730">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1874" height="276" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1597326268191" />
+    <state width="1874" height="276" key="GridCell.Tab.0.center/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1597749669722" />
+    <state width="1874" height="276" key="GridCell.Tab.0.center/1920.0.1920.1080/0.30.1920.1050@1920.0.1920.1080" timestamp="1597580108815" />
+    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1597749669722">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597320903730" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1597320903730">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1874" height="276" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1597326268191" />
+    <state width="1874" height="276" key="GridCell.Tab.0.left/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1597749669722" />
+    <state width="1874" height="276" key="GridCell.Tab.0.left/1920.0.1920.1080/0.30.1920.1050@1920.0.1920.1080" timestamp="1597580108815" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1597749669722">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597320903730" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1597326268191" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1597749669722" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right/1920.0.1920.1080/0.30.1920.1050@1920.0.1920.1080" timestamp="1597580108815" />
+    <state width="1874" height="341" key="GridCell.Tab.1.bottom" timestamp="1597748656488">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1874" height="341" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1597748656488" />
+    <state width="1874" height="341" key="GridCell.Tab.1.center" timestamp="1597748656488">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1874" height="341" key="GridCell.Tab.1.center/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1597748656488" />
+    <state width="1874" height="341" key="GridCell.Tab.1.left" timestamp="1597748656488">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1874" height="341" key="GridCell.Tab.1.left/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1597748656488" />
+    <state width="1874" height="341" key="GridCell.Tab.1.right" timestamp="1597748656488">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1874" height="341" key="GridCell.Tab.1.right/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1597748656488" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1597321237293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597321237293" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1597316922392">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="770" y="250" width="370" height="613" key="RollbackChangesDialog" timestamp="1597732155694">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="770" y="250" width="370" height="613" key="RollbackChangesDialog/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1597732155694" />
+    <state x="461" y="197" width="992" height="733" key="SettingsEditor" timestamp="1597732107757">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597316922392" />
-    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1597321072300">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="461" y="197" width="992" height="733" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1597326122549" />
+    <state x="461" y="197" key="SettingsEditor/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1597732107757" />
+    <state width="545" height="446" key="SwitcherDM" timestamp="1597732022779">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="545" height="446" key="SwitcherDM/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1597732022779" />
+    <state x="860" y="435" width="329" height="389" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1597671135715">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="860" y="435" width="329" height="389" key="com.intellij.database.actions.DdlActions$CreateObject$1/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1597671135715" />
+    <state x="2780" y="417" width="189" height="279" key="com.intellij.database.actions.DdlActions$CreateObject$1/1920.0.1920.1080/0.30.1920.1050@1920.0.1920.1080" timestamp="1597646642138" />
+    <state x="829" y="463" width="312" height="247" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1597670785393">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="829" y="463" width="312" height="247" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1597670785393" />
+    <state x="2749" y="445" width="312" height="247" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/1920.0.1920.1080/0.30.1920.1050@1920.0.1920.1080" timestamp="1597646629451" />
+    <state x="667" y="151" width="585" height="809" key="find.popup" timestamp="1597739503581">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597321072300" />
+    <state x="667" y="151" width="585" height="809" key="find.popup/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1597739503581" />
+    <state x="2587" y="124" width="585" height="832" key="find.popup/1920.0.1920.1080/0.30.1920.1050@1920.0.1920.1080" timestamp="1597418731649" />
+    <state x="623" y="261" width="672" height="678" key="search.everywhere.popup" timestamp="1597737611451">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="623" y="261" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1597737611451" />
   </component>
 </project>
